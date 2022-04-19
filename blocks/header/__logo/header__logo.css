@@ -1,0 +1,11 @@
+.header__logo {
+    width: 11rem;
+    height: 3.125rem;
+}
+
+@media all and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

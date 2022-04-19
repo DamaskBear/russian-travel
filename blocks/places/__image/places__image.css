@@ -1,0 +1,22 @@
+.places__image {
+    max-width: 460px;
+    max-height: 460px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+    .places__image {
+        width: calc(1024px - (0.004464 * (1279px - 100vw)));
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .places__image {
+        width: calc(768px - 0.004464 * ((1023px - 100vw)));
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .places__image {
+        width: calc(320px - 0.004464 * ((767px - 100vw)));
+    }
+}
