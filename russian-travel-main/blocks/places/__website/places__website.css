@@ -1,8 +1,0 @@
-.places__website {
-    display: flex;
-    flex-direction: column;
-    align-self: end;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-}
