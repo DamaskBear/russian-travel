@@ -1,9 +1,0 @@
-.link {
-    color: #ffff;
-    cursor: url(/image/Pointer.svg), pointer;
-    transition: opacity .3s ease;
-}
-
-.link:hover {
-    opacity: 0.8;
-}
