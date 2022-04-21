@@ -1,0 +1,9 @@
+.places__container {
+    display: flex;
+}
+
+@media all and (max-width: 425px) {
+    .places__container {
+        flex-direction: column;
+    }
+}
